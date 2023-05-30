@@ -3,6 +3,12 @@
 <section class="mb-32 text-center text-gray-800">
     <div class="max-w-[700px] mx-auto px-3 lg:px-6">
       <h2 class="text-3xl font-bold mb-12">Contact</h2>
+      <p>
+        Passez vos commandes ou posez moi une question à l'aide du formulaire <br>ou directement sur <br>
+      
+      <a href="https://www.instagram.com/brasseriebrignoli/">Instragram <Icon name="uil:instagram" color="black" /></a>
+      </p>
+      <br>
       <form id="formId"
               action="https://docs.google.com/forms/d/e/1FAIpQLSfZ3_-6S3V7FOHBpwI2AXCRzyNvHjBEA9tJ-qjJtJ0qP8bK-Q/formResponse">
   
