@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <header>
-      Brasserie Brignoli
-    </header>
+    <HeaderSection/>
    
    
 <SectionContact/>
-  </div>
 </template>

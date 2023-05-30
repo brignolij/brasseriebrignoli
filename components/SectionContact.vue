@@ -4,9 +4,10 @@
     <div class="max-w-[700px] mx-auto px-3 lg:px-6">
       <h2 class="text-3xl font-bold mb-12">Contact</h2>
       <p>
-        Passez vos commandes ou posez moi une question à l'aide du formulaire <br>ou directement sur <br>
+        Passez vos commandes ou posez moi une question à l'aide du formulaire <br>ou directement via les réseaux sociaux <br>
       
-      <a href="https://www.instagram.com/brasseriebrignoli/">Instragram <Icon name="uil:instagram" color="black" /></a>
+      <a class="pr-2 text-2xl" href="https://www.instagram.com/brasseriebrignoli/"><Icon name="uil:instagram" color="GoldenRod" /></a>
+      <a class="pr-2 text-2xl" href="https://www.instagram.com/brasseriebrignoli/"><Icon name="uil:facebook" color="GoldenRod" /></a>
       </p>
       <br>
       <form id="formId"
