@@ -1,6 +1,0 @@
-<template>
-    <HeaderSection/>
-   
-   
-<SectionContact/>
-</template>
