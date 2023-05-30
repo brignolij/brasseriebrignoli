@@ -22,6 +22,7 @@ pnpm install
 Start the development server on `http://localhost:3000`
 
 ```bash
+yarn install
 npm run dev
 ```
 
@@ -38,5 +39,9 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
+
+Deploy
+```bash
+npx nuxi generate  
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
