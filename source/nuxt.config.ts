@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         'nuxt-icon',
     ],
     app: {
-        // baseURL: '/nuxt-github-pages/' // baseURL: '/<repository>/'
+        baseURL: '/' //'/nuxt-github-pages/' // baseURL: '/<repository>/'
     }
 
 })
