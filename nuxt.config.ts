@@ -11,9 +11,9 @@ export default defineNuxtConfig({
         //'@nuxtjs/tailwindcss',
         'nuxt-icon',
     ],
-    app: {
+   /* app: {
         baseURL: '/' //'/nuxt-github-pages/' // baseURL: '/<repository>/'
-    },
+    },*/
     ssr: false
 
 })

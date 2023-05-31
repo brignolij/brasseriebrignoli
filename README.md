@@ -42,9 +42,8 @@ npm run preview
 
 Deploy
 ```bash
-npx nuxi generate  
- cp -R .output/public/* ../  
- git add .   
- git push origin HEAD
+npm run generate   
+cp -r -p .output/public/* docs          
+
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
