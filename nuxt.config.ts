@@ -14,6 +14,6 @@ export default defineNuxtConfig({
    /* app: {
         baseURL: '/' //'/nuxt-github-pages/' // baseURL: '/<repository>/'
     },*/
-    ssr: false
+    //ssr: false
 
 })
