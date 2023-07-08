@@ -48,7 +48,7 @@ cp -r -p .output/public/* docs
 Deploy v2
 ```bash
 npm run generate   
-rm run deploy
+npm run deploy
 
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
