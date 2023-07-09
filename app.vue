@@ -1,6 +1,6 @@
 <template>
   <HeaderSection />
-
+  <SectionBeers />
   <SectionContact />
 </template>
 
