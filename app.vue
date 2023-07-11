@@ -1,7 +1,9 @@
 <template>
-  <HeaderSection />
+  <div class="font-barlow">
+  <SectionHeader />
   <SectionBeers />
   <SectionContact />
+</div>
 </template>
 
 

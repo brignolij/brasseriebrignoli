@@ -1,6 +1,6 @@
 <template>
     <!-- Section: Design Block -->
-    <section class="mb-32 text-center text-gray-800">
+    <section class="mb-32 text-center text-gray-800" id="beers">
       <h1 class="text-3xl font-bold mb-12">Les Bières</h1>
   
       <div class="grid grid-cols-1  lg:grid-cols-3 gap-4 px-10">

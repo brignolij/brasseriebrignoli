@@ -2,7 +2,7 @@
   <header>
     <!-- Section: Design Block -->
     <section
-      class="mb-8 text-gray-800 text-center lg:text-left background-radial-gradient"
+      class="mb-8 text-gray-800 text-center lg:text-left background-radial-gradient" id="start"
     >
       <div
         class="relative overflow-hidden bg-no-repeat bg-cover"

@@ -1,6 +1,6 @@
 <template>
 <!-- Section: Design Block -->
-<section class="mb-32 text-center text-gray-800">
+<section class="mb-32 text-center text-gray-800" id="contact">
     <div class="max-w-[700px] mx-auto px-3 lg:px-6">
       <h2 class="text-3xl font-bold mb-12">Contact</h2>
       <p>

@@ -18,6 +18,10 @@ export default defineNuxtConfig({
           }}]
         
     ],
+    components: [
+      { path: '~/components/sections', prefix: 'Section' },
+      '~/components'
+    ]
    /* app: {
         baseURL: '/' //'/nuxt-github-pages/' // baseURL: '/<repository>/'
     },*/
