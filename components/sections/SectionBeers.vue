@@ -7,26 +7,26 @@
 
         <div class="block text-greenjeff">
           <h3 class="text-xl font-bold font-barlow">La Jeff</h3>
-          <img class="max-w-120 mx-auto" src="/images/beer_jeff.png" />
-          <p class="mt-3">Session IPA - 5.6%</p>
-          <p>blablalblalblalblal asdasd asd asdasdasd asd asd asd ads</p>
+          <img class="mt-3 max-w-120 mx-auto" src="/images/beer_jeff.png" />
+          <p class="mt-3">IPA - 5.6%</p>
+          <p>Clair, légère, peu amer et fruitée </p>
         </div>
   
-        <div class="block text-blu1e-600 text-blueczech">
+        <div class="block text-blueczech">
           <h3 class="text-xl font-bold">
             La Czech <span class="font-normal text-base">(la Tchèque)</span>
           </h3>
-          <img class="max-w-120 mx-auto" src="/images/beer_czech.png" />
-          <p class="mt-3">Session IPA - 5.6%</p>
-          <p>blablalblalblalblal asdasd asd asdasdasd asd asd asd ads</p>
+          <img class="mt-3 max-w-120 mx-auto" src="/images/beer_czech.png" />
+          <p class="mt-3">Pils Lager - 6.2%</p>
+          <p>Clair, maltée et légère amertume </p>
 
         </div>
   
         <div class="block text-red1-700 text-redirish">
           <h3 class="text-xl font-bold">L'Irish</h3>
-          <img class="max-w-120 mx-auto" src="/images/beer_irish.png" />
-          <p class="mt-3">Session IPA - 5.6%</p>
-          <p>blablalblalblalblal asdasd asd asdasdasd asd asd asd ads</p>
+          <img class="mt-3 max-w-120 mx-auto" src="/images/beer_irish.png" />
+          <p class="mt-3">Irish Red Ale - 6.6%</p>
+          <p>Rouge, notes de torréfaction, légère amertume et final fruité.</p>
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@
 <!-- Section: Design Block -->
 <section class="mb-32 text-center text-gray-800" id="contact">
     <div class="max-w-[700px] mx-auto px-3 lg:px-6">
-      <h2 class="text-3xl font-bold mb-12">Contact</h2>
+      <h2 class="text-3xl font-bold mb-12">Commande & Contact</h2>
       <p>
         Passez vos commandes ou posez moi une question à l'aide du formulaire <br>ou directement via les réseaux sociaux <br>
       
@@ -79,7 +79,7 @@
           w-full
           px-6
           py-2.5
-          bg-blue-600
+          bg-blueczech
           text-white
           font-medium
           text-xs
@@ -87,9 +87,9 @@
           uppercase
           rounded
           shadow-md
-          hover:bg-blue-700 hover:shadow-lg
-          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-          active:bg-blue-800 active:shadow-lg
+          hover:bg-greenjeff hover:shadow-lg
+          focus:bg-greenjeff focus:shadow-lg focus:outline-none focus:ring-0
+          active:bg-greenjeff active:shadow-lg
           transition
           duration-150
           ease-in-out">Envoyer</button>
