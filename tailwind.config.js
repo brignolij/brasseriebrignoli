@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        barlow: "Barlow"
+        barlow: "Barlow",
+        highvoltagerough:"HighVoltageRough"
       },
       colors:{
         greenjeff: '#ABB54A',
