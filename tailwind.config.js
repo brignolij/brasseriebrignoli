@@ -9,7 +9,11 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        barlow: "Barlow",
+      }
+    },
   },
   plugins: [require("tw-elements/dist/plugin.cjs")],
   darkMode: "class"

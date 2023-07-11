@@ -10,6 +10,13 @@ export default defineNuxtConfig({
     modules: [
         //'@nuxtjs/tailwindcss',
         'nuxt-icon',
+        ['@nuxtjs/google-fonts', {
+          families: {
+            'Barlow': true,
+            download: true,
+            inject: true
+          }}]
+        
     ],
    /* app: {
         baseURL: '/' //'/nuxt-github-pages/' // baseURL: '/<repository>/'

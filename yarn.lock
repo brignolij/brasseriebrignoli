@@ -835,6 +835,15 @@
     vite-plugin-checker "^0.6.0"
     vue-bundle-renderer "^1.0.3"
 
+"@nuxtjs/google-fonts@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-3.0.1.tgz#adeb861736ef8b9e636f9ada8ec934727804a9df"
+  integrity sha512-9W5jZhpJ4UTmiPebljdoxs+ju89rOBVD5gb0sPRe73BVXCUUv46lV2Q0ynPZPsnono5WlTB6nyZbOCECa7IWDQ==
+  dependencies:
+    "@nuxt/kit" "^3.5.0"
+    google-fonts-helper "^3.3.0"
+    pathe "^1.1.0"
+
 "@nuxtjs/tailwindcss@^6.6.6":
   version "6.6.6"
   resolved "https://registry.npmjs.org/@nuxtjs/tailwindcss/-/tailwindcss-6.6.6.tgz"
@@ -2045,7 +2054,7 @@ deep-equal@~1.0.1:
   resolved "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz"
   integrity sha512-bHtC0iYvWhyaTzvV3CZgPeZQqCOBGyGsVV7v4eevpdkLHfiSrXUdBG+qAuSz4RI70sszvjQ1QSZ98An1yNwpSw==
 
-deepmerge@^4.2.2:
+deepmerge@^4.2.2, deepmerge@^4.3.1:
   version "4.3.1"
   resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
@@ -2747,6 +2756,16 @@ globby@^6.1.0:
     object-assign "^4.0.1"
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
+
+google-fonts-helper@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/google-fonts-helper/-/google-fonts-helper-3.3.0.tgz#908f9b9fce267497c864e8cd7fb2089c55b126b6"
+  integrity sha512-aFEVbmaavTY6wN3m6jZaWXQHfakMy6XNqdWN8YzHqHWCGpGma91zp8MiWsyb5i8gXQXYeGUWegb9ca/Jf/Q7Yw==
+  dependencies:
+    deepmerge "^4.3.1"
+    hookable "^5.5.3"
+    ofetch "^1.0.1"
+    ufo "^1.1.1"
 
 graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, graceful-fs@^4.2.9:
   version "4.2.11"
