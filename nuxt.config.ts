@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         'nuxt-icon',
         ['@nuxtjs/google-fonts', {
           families: {
-            'Barlow': true,
+            'Barlow': [100,200,300,400,500,600,700,800,900],
             download: true,
             inject: true
           }}]

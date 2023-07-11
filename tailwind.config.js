@@ -11,13 +11,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        barlow: "Barlow",
+        barlow: "Barlow"
       },
       colors:{
         greenjeff: '#ABB54A',
         blueczech:'#4375BF',
         redirish: '#D03F2C',
-        yellowbeer:"GoldenRod"
+        yellowbeer:"#DAA520"
       }
     },
   },
