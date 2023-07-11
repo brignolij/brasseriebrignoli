@@ -12,6 +12,12 @@ module.exports = {
     extend: {
       fontFamily:{
         barlow: "Barlow",
+      },
+      colors:{
+        greenjeff: '#ABB54A',
+        blueczech:'#4375BF',
+        redirish: '#D03F2C',
+        yellowbeer:"GoldenRod"
       }
     },
   },
