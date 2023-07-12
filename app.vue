@@ -3,6 +3,7 @@
   <SectionHeader />
   <SectionBeers />
   <SectionContact />
+  <SectionStory />
 </div>
 </template>
 
@@ -17,7 +18,7 @@ export default {
           {
             name: "description",
             content:
-              "Brasserie de bière artisanal Suisse de la région de Rolle tenue par Yann Brignoli.",
+              "Brasserie de bière artisanale suisse de la région de Rolle, tenue par Yann Brignoli.",
           },
         ],
       },

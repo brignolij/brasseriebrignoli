@@ -26,6 +26,9 @@
                   class="w-1/2 md:w-1/6 mx-auto"
                 />
               </p>
+              <p class="text-lg1 mt-10 font-barlow">
+                Brasserie de bière artisanale suisse de la région de Rolle, tenue par Yann Brignoli.
+              </p>
 <!--
   w-1/6
               <p class="text-lg1">
