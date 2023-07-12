@@ -1,8 +1,8 @@
 <template>
-  <section class="text-center text-white bg-[url(~/assets/images/beertap.jpg)] 
+  <section class="text-center text-white bg-[url(~/assets/images/hop2.jpg)] 
 bg-no-repeat bg-center " id="story" >
-    <div class=" bg-black/[.45] " >
-    <h1 class="text-3xl font-bold mb-12 text-yellowbeer pt-4">Un peu d'histoire</h1>
+    <div class=" bg-black/[.7] " >
+    <h1 class="text-3xl font-bold mb-12 text-white pt-4">Un peu d'histoire</h1>
     <div class="text-left max-w-screen-lg mx-auto px-3 lg:px-6  pb-10">
       <p>
         Comme de nombreuses micro-brasseries, la passion est née humblement dans
