@@ -51,3 +51,9 @@ npm run generate   && npm run deploy
 
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+//TODO
+menu header
+bouton commander sous chaque bière pour mobile
+bouton commander sous section bières
