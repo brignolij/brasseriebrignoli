@@ -4,7 +4,7 @@
     id="story"
   >
     <div class="bg-black/[.5] pt-4 pb-6">
-      <h1 class="text-3xl font-bold mb-12 text-white pt-4">
+      <h1 class="text-3xl font-bold mb-12 text-white pt-4 font-barlow uppercase">
         Un peu d'histoire
       </h1>
       <div class="text-left max-w-screen-lg mx-auto px-3 lg:px-6 pb-10">
@@ -16,7 +16,7 @@
         <p class="mt-2">
           Je m'appelle Yann Brignoli, ingénieur chimiste de profession et
           brasseur à mes heures perdues. Tout a commencé en 2016, avec mes
-          premiers essais de brassage.¯
+          premiers essais de brassage.
         </p>
 
         <p class="mt-2">
