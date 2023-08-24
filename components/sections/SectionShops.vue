@@ -1,7 +1,7 @@
 <template>
   <!-- Section: Design Block -->
   <section class="mb-32 text-center text-gray-800" id="beers">
-    <div class="block max-w-5xl mx-auto"> 
+    <div class="block max-w-5xl mx-auto">
       <h2
         class="text-3xl font-bold mb-12 text-yellowbeer font-barlow uppercase"
       >
@@ -38,6 +38,20 @@
           <h3
             class="text-3xl font-bold font-highvoltagerough mt-4 text-greenjeff"
           >
+            Rolle
+          </h3>
+          <br />
+          <ul>
+            <li>LA CÔTES DES VINS 
+, Grand-Rue 38 </li>
+          </ul>
+        </div>
+
+
+        <div class="block">
+          <h3
+            class="text-3xl font-bold font-highvoltagerough mt-4 text-greenjeff"
+          >
             Perroy
           </h3>
           <br />
@@ -55,6 +69,18 @@
           <br />
           <ul>
             <li>RESTAURANT TIVOLI,Route d’Arzier 1</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3
+            class="text-3xl font-bold font-highvoltagerough mt-4 text-greenjeff"
+          >
+            Nyon
+          </h3>
+          <br />
+          <ul>
+            <li>BEERBOX , Ch. Des Tattes d’Oie 1</li>
           </ul>
         </div>
       </div>
