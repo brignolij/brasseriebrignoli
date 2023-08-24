@@ -2,6 +2,7 @@
   <div class="font-barlow">
   <SectionHeader />
   <SectionBeers />
+  <SectionShops />
   <SectionContact />
   <SectionStory />
 </div>
