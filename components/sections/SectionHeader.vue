@@ -16,9 +16,10 @@
           class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
           style="background-color: rgba(0, 0, 0, 0.75)"
         >
+
           <div class="flex justify-center items-center h-full min-w-full ">
             <div
-              class="text-center text-white px-6 py-6 md:py-0 md:px-12 max-w-[800px] min-w-full"
+              class="text-center text-white px-6 py-6 md:py-0 md:px-12 max-w-6xl"
             >
               <p class="mt-8">
                 <img
