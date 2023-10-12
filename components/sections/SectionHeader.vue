@@ -8,7 +8,7 @@
         class="relative overflow-hidden bg-no-repeat bg-cover"
         style="
           background-position: 50%;
-          background-image: url('/images/beers.jpg');
+          background-image: url('/images/header.jpg');
           height: 500px;
         "
       >
