@@ -31,21 +31,12 @@
           <br />
           <ul>
             <li>RESTAURANT DU CAMPING DE ROLLE, Chemin de la plage 4</li>
-          </ul>
-        </div>
-
-        <div class="block">
-          <h3
-            class="text-3xl font-bold font-highvoltagerough mt-4 text-greenjeff"
-          >
-            Rolle
-          </h3>
-          <br />
-          <ul>
             <li>LA CÔTES DES VINS 
 , Grand-Rue 38 </li>
           </ul>
         </div>
+
+       
 
 
         <div class="block">
