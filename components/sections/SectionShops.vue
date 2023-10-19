@@ -19,6 +19,7 @@
           <ul>
             <li>TONNEAU VERRE, Rue de la plaine 30</li>
             <li>CAFÉ DE LA PROMENADE, Rue des Jordils 23</li>
+            <li>TINY GREEN CBD SHOP, Rue des Pêcheurs 1</li>
           </ul>
         </div>
 

@@ -5,6 +5,7 @@
   <SectionShops />
   <SectionContact />
   <SectionStory />
+  <SectionFooter />
 </div>
 </template>
 

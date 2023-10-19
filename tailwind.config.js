@@ -17,6 +17,7 @@ module.exports = {
       colors:{
         greenjeff: '#ABB54A',
         blueczech:'#4375BF',
+        blueblinch:'#6EBEE4',
         redirish: '#D03F2C',
         yellowbeer:"#DAA520"
       }
