@@ -1,0 +1,16 @@
+{
+    "azureFunctions.deploySubpath": "azure",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#3C2A1F",
+        "titleBar.activeBackground": "#543A2B",
+        "titleBar.activeForeground": "#FBF9F8"
+    }
+}
