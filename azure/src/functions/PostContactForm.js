@@ -29,7 +29,7 @@ app.http('PostContactForm', {
         // Step 3: Handle the response
         if (isValid) {
             await postGoogleDocForm(requestBody['name'], requestBody['email'], requestBody['message'], context)
-            return { body: `Hello, ${name}!` , headers: headersResponse,};
+            return { body: `Success, ${name}!` , headers: headersResponse,};
         } else {
             return { status: 400, body: 'Invalid Recaptcha token.' + `Hello, ${name}!` , headers: headersResponse,};
         }
@@ -65,7 +65,6 @@ async function postGoogleDocForm(name, email, message, context) {
 }
 
 async function validateRecaptchaToken(token, context) {
-    // Replace "YOUR_RECAPTCHA_SECRET_KEY" with your actual secret key
     const secretKey = process.env.Google_secretKey;
     const verifyUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`;
     context.log('validateRecaptchaToken token : ', token);
