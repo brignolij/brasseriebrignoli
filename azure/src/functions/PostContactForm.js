@@ -3,23 +3,26 @@ const http = require('https');
 
 
 app.http('PostContactForm', {
-    methods: ['GET', 'POST'],
+    methods: ['OPTIONS','GET', 'POST'],
     authLevel: 'anonymous',
     handler: async (request, context) => {
         context.log(`Http function processed request for url "${request.url}"`);
+        context.log('v1');
+        var requestBody = JSON.parse(await request.text());
+        context.log(requestBody['name']);
 
         // Step 1: Extract Recaptcha token from the request
-        const recaptchaToken = request.query.get('recaptcha_token') || (await request.text());
+        const recaptchaToken = requestBody['recaptchaToken'];
 
         // Step 2: Validate the Recaptcha token
         const isValid = await validateRecaptchaToken(recaptchaToken,context);
-
+        const name = requestBody['name'] || 'world';
         // Step 3: Handle the response
-        if (isValid || true) {
-            const name = request.query.get('name') || (await request.text()) || 'world';
+        if (isValid) {
+           
             return { body: `Hello, ${name}!` };
         } else {
-            return { status: 400, body: 'Invalid Recaptcha token.' };
+            return { status: 400, body: 'Invalid Recaptcha token.'+`Hello, ${name}!` };
         }
     }
 });
@@ -44,7 +47,6 @@ async function validateRecaptchaToken(token,context) {
                     context.log('result',result)
                     resolve(result.success);
                 } catch (error) {
-                    console.error('Error parsing Recaptcha response:', error.message);
                     context.error('Error parsing Recaptcha response:', error.message);
                     resolve(false);
                 }
