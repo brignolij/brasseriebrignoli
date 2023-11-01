@@ -57,3 +57,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 menu header
 bouton commander sous chaque bière pour mobile
 bouton commander sous section bières
+
+##AZure 
+
+func azure functionapp publish brbrignoli     
