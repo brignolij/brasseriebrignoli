@@ -9,9 +9,13 @@ const formData = ref({
   message: "",
 });
 
-let errorForm = "une erreur s'est produite";
+const errorFormMessage = "une erreur s'est produite";
+const successFormMessage = "message envoyé avec succès";
+
 
 const displayFormError = ref(false);
+const displayFormSuccess = ref(false);
+
 
 const backendUrl = "https://brbrignoli.azurewebsites.net/api/PostContactForm";
 const recaptchaInstance = useReCaptcha();
@@ -50,6 +54,7 @@ const submitForm = async () => {
         message: "",
       };
       displayFormError.value = false;
+      displayFormSuccess.value = true;
     } else {
       displayFormError.value = true;
 
@@ -138,7 +143,8 @@ const submitForm = async () => {
           Envoyer
         </button>
       </form>
-      <div v-if="displayFormError">{{ errorForm }}</div>
+      <div v-if="displayFormError">{{ errorFormMessage }}</div>
+      <div v-if="displayFormSuccess">{{ successFormMessage }}</div>
     </div>
   </section>
 </template>
