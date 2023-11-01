@@ -17,12 +17,21 @@ app.http('PostContactForm', {
         // Step 2: Validate the Recaptcha token
         const isValid = await validateRecaptchaToken(recaptchaToken, context);
         const name = requestBody['name'] || 'world';
+
+         // Set CORS headers
+         const headersResponse = {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
+            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+        };
+
+
         // Step 3: Handle the response
         if (isValid) {
             await postGoogleDocForm(requestBody['name'], requestBody['email'], requestBody['message'], context)
-            return { body: `Hello, ${name}!` };
+            return { body: `Hello, ${name}!` , headers: headersResponse,};
         } else {
-            return { status: 400, body: 'Invalid Recaptcha token.' + `Hello, ${name}!` };
+            return { status: 400, body: 'Invalid Recaptcha token.' + `Hello, ${name}!` , headers: headersResponse,};
         }
     }
 });

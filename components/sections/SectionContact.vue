@@ -1,16 +1,20 @@
 <script  setup lang="ts">
 import { useReCaptcha } from "vue-recaptcha-v3";
-import { ref } from 'vue';
+import { ref } from "vue";
+import { error } from "console";
 
 const formData = ref({
-  name: '',
-  email: '',
-  message: '',
+  name: "",
+  email: "",
+  message: "",
 });
 
-const recaptchaInstance = useReCaptcha();
+let errorForm = "une erreur s'est produite";
+
+const displayFormError = ref(false);
 
 const backendUrl = "https://brbrignoli.azurewebsites.net/api/PostContactForm";
+const recaptchaInstance = useReCaptcha();
 
 const recaptcha = async () => {
   // optional you can await for the reCaptcha load
@@ -22,34 +26,39 @@ const recaptcha = async () => {
   return token;
 };
 
-
-
 const submitForm = async () => {
   const token = await recaptcha();
-
-  console.log("submitForm token", token);
-  console.log("submitForm name", formData.value.name);
 
   try {
     const response = await fetch(backendUrl, {
       method: "POST",
-    
+
       body: JSON.stringify({
         name: formData.value.name,
         email: formData.value.email,
         message: formData.value.message,
         recaptchaToken: token,
       }),
-      
-      
     });
 
     if (response.ok) {
       console.log("Form submitted successfully");
+      // Reset form data after successful submission
+      formData.value = {
+        name: "",
+        email: "",
+        message: "",
+      };
+      displayFormError.value = false;
     } else {
+      displayFormError.value = true;
+
       console.error("Form submission failed");
     }
   } catch (error) {
+    displayFormError.value = true;
+
+    console.error("Form submission failed");
     console.error("Error submitting form", error);
   }
 };
@@ -84,10 +93,7 @@ const submitForm = async () => {
         id="formId"
         action="https://docs.google.com/forms/d/e/1FAIpQLSfZ3_-6S3V7FOHBpwI2AXCRzyNvHjBEA9tJ-qjJtJ0qP8bK-Q/formResponse"
       >-->
-      <form
-        id="formId"
-        @submit.prevent="submitForm"
-      >
+      <form id="formId" @submit.prevent="submitForm">
         <div class="form-group mb-6">
           <input
             type="text"
@@ -132,6 +138,7 @@ const submitForm = async () => {
           Envoyer
         </button>
       </form>
+      <div v-if="displayFormError">{{ errorForm }}</div>
     </div>
   </section>
 </template>
