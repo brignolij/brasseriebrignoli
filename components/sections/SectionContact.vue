@@ -10,8 +10,8 @@ const formData = ref({
 
 const recaptchaInstance = useReCaptcha();
 
-const backendUrl =
-  "https://brbrignoli.azurewebsites.net/api/PostContactForm";
+const backendUrl1 = "https://brbrignoli.azurewebsites.net/api/PostContactForm";
+const backendUrl = "http://localhost:7071/api/PostContactForm";
 
 const recaptcha = async () => {
   // optional you can await for the reCaptcha load
