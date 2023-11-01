@@ -19,7 +19,6 @@ const recaptcha = async () => {
 
   // get the token, a custom action could be added as argument to the method
   const token = await recaptchaInstance?.executeRecaptcha("contact");
-  console.log("recaptcha token", token);
 
   return token;
 };
@@ -35,15 +34,15 @@ const submitForm = async () => {
   try {
     const response = await fetch(backendUrl, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+    
       body: JSON.stringify({
         name: formData.value.name,
         email: formData.value.email,
         message: formData.value.message,
         recaptchaToken: token,
       }),
+      
+      
     });
 
     if (response.ok) {
