@@ -47,7 +47,8 @@ async function postGoogleDocForm(name, email, message, context) {
                 'Content-Type': 'multipart/form-data'
             }
         });
-        context.log('Form submission successful:', response.data);
+        context.log('Form submission successful:', response.status);
+        //context.log('Form submission successful:', response.data);
     } catch (error) {
         context.error('Error submitting form:', error);
     }
@@ -57,7 +58,6 @@ async function postGoogleDocForm(name, email, message, context) {
 async function validateRecaptchaToken(token, context) {
     // Replace "YOUR_RECAPTCHA_SECRET_KEY" with your actual secret key
     const secretKey = process.env.Google_secretKey;
-    //site key = 6Lfz_NooAAAAAFmYgEz-Hy4brvzAnEq5rTpHo3UL
     const verifyUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`;
     context.log('validateRecaptchaToken token : ', token);
     return new Promise((resolve) => {
