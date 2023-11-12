@@ -31,6 +31,9 @@ npm run dev
 yarn dev -o
 ```
 
+## DEV and Debug (open browser)
+yarn dev -o
+
 ## Production
 
 Build the application for production:
@@ -45,12 +48,8 @@ Locally preview production build:
 npm run preview
 ```
 
-Deploy
-```bash
-npm run generate   
-cp -r -p .output/public/* docs          
 
-Deploy v2
+## Deploy v2
 ```bash
 npm run generate   && npm run deploy
 
