@@ -32,8 +32,8 @@
           <br />
           <ul>
             <li>RESTAURANT DU CAMPING DE ROLLE, Chemin de la plage 4</li>
-            <li>LA CÔTES DES VINS 
-, Grand-Rue 38 </li>
+            <li>LA CÔTES DES VINS , Grand-Rue 38 </li>
+            <li>VITAVERDURA, <a href="https://www.vitaverdura.ch/nos-producteurs/brasserie-brignoli" class="text-blueczech" target="_blank">vitaverdura.ch</a></li>
           </ul>
         </div>
 
