@@ -20,7 +20,7 @@
             La Czech 
           </h3>
           <p><span class="font-barlow text-base text-blueczech">(la Tchèque)</span></p>
-          <p class="mt-3">Pils Lager - 6.2%</p>
+          <p class="mt-3">Pils Lager - 5.5%</p>
           <p>Claire, maltée et légère amertume </p>
         </div>
   
@@ -34,7 +34,7 @@
 
         <div class="block text-red1-700 ">
           <img class="mt-3 max-w-120 mx-auto" src="/images/beers/Blinch_md.png" />
-          <h3 class="text-5xl font-bold font-highvoltagerough mt-4 text-blueblinch">La Blinch</h3>
+          <h3 class="text-5xl font-bold font-highvoltagerough mt-4 text-blueblinch">La Blinch'</h3>
           <br>
           <p class="mt-3">Blanche - 5.9%</p>
           <p>Trouble, peu amère avec de subtiles notes d’agrumes</p>

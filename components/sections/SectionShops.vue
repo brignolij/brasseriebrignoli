@@ -60,7 +60,19 @@
           </h3>
           <br />
           <ul>
-            <li>RESTAURANT TIVOLI,Route d’Arzier 1</li>
+            <li>RESTAURANT TIVOLI, Route d’Arzier 1</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3
+            class="text-3xl font-bold font-highvoltagerough mt-4 text-greenjeff"
+          >
+            Mont-sur-Lausanne
+          </h3>
+          <br />
+          <ul>
+            <li>ÉPICERIE MARCHÉ DU GRAND MONT, Route du Grand-Mont 16</li>
           </ul>
         </div>
 
